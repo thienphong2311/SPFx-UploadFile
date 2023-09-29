@@ -1,0 +1,80 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.spFxUploadFile {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.UploadInput{
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px dashed #5f249f;
+}
+
+label{
+  color: #5f249f;
+}
+span{
+  font-weight: bold;
+}
+
+.form-control:focus {
+  background-color: var(--bs-body-bg);
+  border-color: #5f249f !important;
+  box-shadow: 0 0 0 0.25rem rgb(181 134 226 / 25%) !important;
+  color: var(--bs-body-color);
+  outline: 0;
+}
+
+.ownerName{
+  margin-bottom: 10px;
+}
+
+.check_Box {
+  padding-left: 2.5em !important;
+}
+
+.btnSubmit{
+  background-color: #5f249f !important;
+  font-weight: bold !important;
+  color: white !important;
+}
+
+.rowStyle{
+  padding: 10px;
+}
+
+.docType{
+  color: black;
+}

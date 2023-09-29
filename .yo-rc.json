@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "sp-fx-upload-file",
+    "libraryId": "d9b9a066-1574-4c34-90e6-32e90b543f32",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SPFx-UploadFile",
+    "solutionShortDescription": "SPFx-UploadFile description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
